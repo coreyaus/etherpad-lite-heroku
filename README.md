@@ -8,7 +8,8 @@ This is a wrapper of etherpad-lite for Heroku, incorporating the official releas
 2. Clone this repo into a directory of your choice
 3. Set two Heroku config vars:
 
-```heroku config:add DATABASE_URL=urlfromDBprovider
+```bash
+heroku config:add DATABASE_URL=urlfromDBprovider
 heroku config:add ETHERPAD_SETTINGS=settingsJSONinroot.json
 ```
 
