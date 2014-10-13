@@ -19,7 +19,7 @@ heroku config:add ETHERPAD_SETTINGS=settingsJSONinroot.json
 
 ## TODO
 
-- Plugin support
+- <del>Plugin support</del> Works.
 - node_modules versioning/locating
 - Launch script cleanup
 
