@@ -17,6 +17,17 @@ heroku config:add ETHERPAD_SETTINGS=settingsJSONinroot.json
 5. Add your Heroku app as a remote
 6. `git push heroku master`
 
+
+## additional settings
+
+Etherpad will complain if you run it as root. If you wish to allow it to run as
+root, set an additional config variable:
+
+```bash
+heroku config:add ETHERPAD_ALLOW_ROOT=1
+```
+
+
 ## TODO
 
 - <del>Plugin support</del> Works.
