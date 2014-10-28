@@ -30,7 +30,7 @@ heroku config:add ETHERPAD_ALLOW_ROOT=1
 
 ## TODO
 
-- <del>Plugin support</del> Works.
+- <del>Plugin support</del> Works (manually, see [issue #3](https://github.com/talexand/etherpad-lite-heroku/issues/3#issuecomment-60725329))
 - node_modules versioning/locating
 - Launch script cleanup
 
