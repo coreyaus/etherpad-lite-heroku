@@ -22,4 +22,8 @@ settings = {
 # Write the settings hash out as JSON.
 File.open('./etherpad-lite/settings.json', 'w') { |f| f.write(settings.to_json) }
 
+if ENV['ETHERPAD_ALLOW_ROOT'] == '1'
+exec('./etherpad-lite/bin/run.sh --root')
+else
 exec('./etherpad-lite/bin/run.sh')
+end
