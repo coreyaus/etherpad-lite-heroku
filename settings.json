@@ -87,7 +87,7 @@
   // restrict socket.io transport methods
   "socketTransportProtocols" : ["xhr-polling", "jsonp-polling", "htmlfile"],
   
-  /* The toolbar buttons configuration.
+  /* The toolbar buttons configuration.*/
   "toolbar": {
     "left": [
       ["bold", "italic", "underline", "strikethrough"],
@@ -100,11 +100,11 @@
       ["settings", "embed"],
       ["showusers"]
     ],
-    "timeslider": [
+    /*"timeslider": [
       ["timeslider_export", "timeslider_returnToPad"]
-    ]
+    ]*/
   },
-  */
+  
 
   /* The log level we are using, can be: DEBUG, INFO, WARN, ERROR */
   "loglevel": "INFO",
