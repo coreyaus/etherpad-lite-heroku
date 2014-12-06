@@ -9,7 +9,7 @@
 
   // favicon default name
   // alternatively, set up a fully specified Url to your own favicon
-  "favicon": "/favicon.png",
+  "favicon": "https://redderedes.herokuapp.com/up/dcd31470dc731b86f03a43ce77baf621.ico",
   
   //IP and port which etherpad should bind at
   // Don't provide these to Heroku!
@@ -35,7 +35,7 @@
   */
   
   //the default text of a pad
-  "defaultPadText" : "Bienvenido usuario!\n\nEste documento se actualiza automaticamente cuando escriban para que toda la gente leyendo esta pagina vea el mismo contenido. Asi pueden colaborar facilmente!",
+  "defaultPadText" : "Bienvenido usuario!\n\nEste documento se actualiza automáticamente cuando escriban para que toda la gente leyendo esta página vea el mismo contenido. Así pueden colaborar fácilmente!",
   
   /* Users must have a session to access pads. This effectively allows only group pads to be accessed. */
   "requireSession" : false,
