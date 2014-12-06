@@ -100,9 +100,9 @@
       ["settings", "embed"],
       ["showusers"]
     ],
-    /*"timeslider": [
+    "timeslider": [
       ["timeslider_export", "timeslider_returnToPad"]
-    ]*/
+    ]
   },
   
 
